@@ -1,0 +1,23 @@
+{
+  "name": "thanaweya-chemistry-exam",
+  "version": "1.0.0",
+  "description": "منصة امتحانات الكيمياء للثانوية العامة - Full-stack educational examination platform",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node src/seed.js",
+    "test": "node tests/flow.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "better-sqlite3": "^11.10.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0"
+  }
+}

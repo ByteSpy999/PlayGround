@@ -1,0 +1,25 @@
+
+screenshots/
+
+*.log
+
+*.pid
+
+.agents/
+
+.agentsweb/
+
+.omgithub-runtime/
+
+.opencode-ssh/
+
+.opencode-web/
+
+node_modules/
+
+# App secrets & runtime data (never commit)
+.env
+data/
+*.db
+*.db-*
+/tmp/
